@@ -8,9 +8,13 @@ I have good news for hackers and pen testers. I made it easier by my new python 
 # Usage
 
 Usage: ./burp-to-sqlmap.py [options]
+
   Options: -f, --file               <BurpSuit State File>
+  
   Options: -o, --outputdirectory    <Output Directory>
+  
   Options: -s, --sqlmappath         <SQLMap Path>
+  
   Example: python burp-to-sqlmap.py -f [BURP-STATE-FILE] -o [OUTPUT-DIRECTORY] -s [SQLMap-Path]
 
 
