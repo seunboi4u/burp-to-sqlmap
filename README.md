@@ -6,15 +6,30 @@ I have good news for hackers and pen testers. I made it easier by my new python 
 
 
 # Usage
+ #######################################################################
+ #                                                                     #
+ #  \______   \    |   \______   \______   \ \__    ___/\_____  \      #
+ #   |    |  _/    |   /|       _/|     ___/   |    |    /   |   \     #
+ #   |    |   \    |  / |    |   \|    |       |    |   /    |    \    #
+ #   |______  /______/  |____|_  /|____|       |____|   \_______  /    #
+ #          \/                 \/                               \/     #
+ #    _________________  .____       _____      _____ __________       #
+ #   /   _____/\_____  \ |    |     /     \    /  _  \\______   \      #
+ #   \_____  \  /  / \  \|    |    /  \ /  \  /  /_\  \|     ___/      #
+ #   /        \/   \_/.  \    |___/    Y    \/    |    \    |          #
+ #  /_______  /\_____\ \_/_______ \____|__  /\____|__  /____|          #
+ #          \/        \__>       \/       \/         \/                #
+ #                                                                     #
+ #    Created By: Milad Khoshdel      Blog: https://blog.regux.com     #
+ #                                    E-Mail: miladkhoshdel@gmail.com  #
+ #######################################################################
 
-Usage: ./burp-to-sqlmap.py [options]
 
+  Usage: ./burp-to-sqlmap.py [options]
   Options: -f, --file               <BurpSuit State File>
-  
   Options: -o, --outputdirectory    <Output Directory>
-  
   Options: -s, --sqlmappath         <SQLMap Path>
-  
-  Example: python burp-to-sqlmap.py -f [BURP-STATE-FILE] -o [OUTPUT-DIRECTORY] -s [SQLMap-Path]
+  Options: -p, --proxy              <Use Proxy>
+  Example: python burp-to-sqlmap.py -f [BURP-STATE-FILE] -o [OUTPUT-DIRECTORY] -s [SQLMap-Path] -p [Proxy]
 
 
